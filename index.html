@@ -229,6 +229,55 @@
       display: table;
       clear: both;
     }
+
+     /* -------------------------
+       📱 Responsive Media Queries
+       ------------------------- */
+    @media (max-width: 768px) {
+      header {
+        height: 300px;
+      }
+
+      .image-right {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+        width: 100%;
+        max-width: 90%;
+      }
+
+      .img-gallery img {
+        max-width: 100%;
+      }
+
+      section {
+        margin: 1rem;
+        padding: 1.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header img.law-logo {
+        width: 60px;
+      }
+
+      .nav-buttons .btn {
+        flex: 1 1 100%;
+        padding: 8px 12px;
+      }
+
+      h2, h3 {
+        text-align: center;
+      }
+
+      ul {
+        margin-left: 1rem;
+      }
+
+      #Contact {
+        padding: 2rem 1rem;
+      }
+    }
   </style>
 </head>
 <body>
